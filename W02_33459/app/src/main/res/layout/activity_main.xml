@@ -17,7 +17,7 @@
             android:id="@+id/textView"
             android:layout_width="100dp"
             android:layout_height="33dp"
-            android:text="Angka 1:" />
+            android:text="@string/angka1" />
         <EditText
             android:id="@+id/angka1"
             android:layout_width="250dp"
@@ -33,7 +33,7 @@
             android:id="@+id/textView2"
             android:layout_width="100dp"
             android:layout_height="33dp"
-            android:text="Angka 2:" />
+            android:text="@string/angka2" />
         <EditText
             android:id="@+id/angka2"
             android:layout_width="250dp"
@@ -55,7 +55,7 @@
             android:layout_marginTop="3dp"
             android:layout_marginBottom="3dp"
             android:layout_weight="0"
-            android:text="tambah" />
+            android:text="@string/btnTambah" />
         <View
             android:layout_width="3dp"
             android:layout_height="match_parent"
@@ -67,7 +67,7 @@
             android:layout_marginTop="3dp"
             android:layout_marginBottom="3dp"
             android:layout_weight="0"
-            android:text="kurang" />
+            android:text="@string/btnKurang" />
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -81,7 +81,7 @@
             android:layout_marginTop="3dp"
             android:layout_marginBottom="3dp"
             android:layout_weight="0"
-            android:text="kali" />
+            android:text="@string/btnKali" />
 
         <View
             android:layout_width="3dp"
@@ -94,7 +94,7 @@
             android:layout_marginTop="3dp"
             android:layout_marginBottom="3dp"
             android:layout_weight="0"
-            android:text="bagi"/>
+            android:text="@string/btnBagi"/>
     </LinearLayout>
 
     !--TextView Hasil-->
@@ -106,7 +106,7 @@
             android:id="@+id/textView3"
             android:layout_width="100dp"
             android:layout_height="33dp"
-            android:text="Hasil :" />
+            android:text="@string/hasil" />
         <TextView
             android:id="@+id/hasil"
             android:layout_width="250dp"
