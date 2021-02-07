@@ -5,6 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center_horizontal"
     tools:context=".MainActivity">
 <!--    tools:context=".MainActivity">-->
 <!--    tools:context=".FirstActivity">-->
@@ -51,13 +53,13 @@
             android:id="@+id/btnTambah"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="3dp"
             android:layout_marginTop="3dp"
             android:layout_marginBottom="3dp"
             android:layout_weight="0"
-            android:text="@string/btnTambah" />
+            android:text="@string/btnTambah"
+            android:enabled="false"/>
         <View
-            android:layout_width="3dp"
+            android:layout_width="10dp"
             android:layout_height="match_parent"
             android:layout_weight="0"/>
         <Button
@@ -67,7 +69,8 @@
             android:layout_marginTop="3dp"
             android:layout_marginBottom="3dp"
             android:layout_weight="0"
-            android:text="@string/btnKurang" />
+            android:text="@string/btnKurang"
+            android:enabled="false"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -77,14 +80,14 @@
             android:id="@+id/btnKali"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="3dp"
             android:layout_marginTop="3dp"
             android:layout_marginBottom="3dp"
             android:layout_weight="0"
-            android:text="@string/btnKali" />
+            android:text="@string/btnKali"
+            android:enabled="false"/>
 
         <View
-            android:layout_width="3dp"
+            android:layout_width="10dp"
             android:layout_height="match_parent"
             android:layout_weight="0"/>
         <Button
@@ -94,7 +97,8 @@
             android:layout_marginTop="3dp"
             android:layout_marginBottom="3dp"
             android:layout_weight="0"
-            android:text="@string/btnBagi"/>
+            android:text="@string/btnBagi"
+            android:enabled="false"/>
     </LinearLayout>
 
     !--TextView Hasil-->
