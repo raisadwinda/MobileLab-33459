@@ -49,7 +49,7 @@
         android:orientation="horizontal">
         <Button
             android:id="@+id/btnTambah"
-            android:layout_width="wrap_content"
+            android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="3dp"
             android:layout_marginTop="3dp"
@@ -62,7 +62,7 @@
             android:layout_weight="0"/>
         <Button
             android:id="@+id/btnKurang"
-            android:layout_width="wrap_content"
+            android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="3dp"
             android:layout_marginBottom="3dp"
@@ -75,7 +75,7 @@
         android:orientation="horizontal">
         <Button
             android:id="@+id/btnKali"
-            android:layout_width="wrap_content"
+            android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="3dp"
             android:layout_marginTop="3dp"
@@ -89,7 +89,7 @@
             android:layout_weight="0"/>
         <Button
             android:id="@+id/btnBagi"
-            android:layout_width="wrap_content"
+            android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="3dp"
             android:layout_marginBottom="3dp"
