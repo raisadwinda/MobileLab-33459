@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
                 if(urlText.isEmpty()){
                     urlText = "http://www.umn.ac.id/";
                 }
+
                 Intent browseIntent = new Intent(Intent.ACTION_VIEW);
                 browseIntent.setData(Uri.parse(urlText));
                 if(browseIntent.resolveActivity(getPackageManager()) != null){
